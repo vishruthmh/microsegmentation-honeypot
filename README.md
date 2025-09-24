@@ -48,8 +48,8 @@ By enforcing Docker network rules or external firewall rules, each component com
 ## Repository Layout
 
 microsegmentation-honeypot/
-├─ docker-compose.yml
-├─ web/ # Nginx front-end
-├─ app/ # FastAPI service
-├─ db/ # SQLite service with Flask API
-└─ honeypot/ # Fake admin portal
+├── docker-compose.yml
+├── web/ # Nginx front-end
+├── app/ # FastAPI service
+├── db/ # SQLite service with Flask API
+└── honeypot/ # Fake admin portal
