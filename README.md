@@ -1,4 +1,4 @@
-# 🕸️ Microsegmentation-Honeypot
+# Microsegmentation-Honeypot
 
 **Microsegmentation Lab with Honeypot**
 
@@ -7,7 +7,7 @@ It shows how isolating services into separate network zones can limit attacker m
 
 ---
 
-## 🔎 Project Overview
+## Project Overview
 - **Web Front-End (Nginx):** Public entry point and reverse proxy.  
 - **Application API (FastAPI):** Business logic layer; reachable only through the web container.  
 - **Database Service (SQLite + Flask wrapper):** Runs in its own container to simulate a protected DB segment.  
@@ -17,7 +17,7 @@ By enforcing Docker network rules or external firewall rules, each component com
 
 ---
 
-## ✨ Features
+##  Features
 ### Microsegmentation Demo
 - Web → App → DB traffic only  
 - DB not directly accessible from the host  
@@ -34,7 +34,7 @@ By enforcing Docker network rules or external firewall rules, each component com
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Layer          | Technology              |
 |----------------|-------------------------|
 | Reverse Proxy  | **Nginx**               |
@@ -45,4 +45,4 @@ By enforcing Docker network rules or external firewall rules, each component com
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
